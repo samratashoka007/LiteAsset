@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/oflineexporttool" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true"/>
+    <EditText android:gravity="center"
+         android:id="@+id/edittext1"
+        android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Search Here" android:layout_below="@+id/oflineexporttool" android:layout_alignParentTop="false"/>
+    <ListView android:id="@+id/listViewNames" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/linear" android:layout_below="@+id/edittext1"/>
+    <ProgressBar android:id="@+id/ProgressBar1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <LinearLayout android:orientation="horizontal"
+        android:visibility="gone" android:id="@+id/linear" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fab_margin_16dp" android:layout_marginRight="@dimen/fab_margin_16dp" android:layout_marginBottom="@dimen/fab_margin_16dp" android:weightSum="1" android:layout_alignParentBottom="true">
+        <Button android:textColor="@color/white" android:id="@+id/buttonexportxls" android:background="@color/colorPrimary" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Save As A XLS" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+        <Button android:textColor="@color/white" android:id="@+id/buttonexportcsv" android:background="@color/colorPrimary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_5" android:text="SAVE AS A CSV" android:layout_weight="0.5" android:layout_alignParentBottom="true"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/fab_margin_16dp" android:layout_marginTop="@dimen/fab_margin_16dp" android:layout_marginRight="@dimen/fab_margin_16dp" android:layout_marginBottom="@dimen/fab_margin_16dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/fab_margin_16dp" android:layout_marginTop="@dimen/fab_margin_16dp" android:layout_marginRight="@dimen/fab_margin_16dp" android:layout_marginBottom="@dimen/fab_margin_16dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:layout_width="@dimen/margin_120" android:layout_height="wrap_content" android:text="Id = "/>
+            <TextView android:textColor="@color/black" android:id="@+id/oflid" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="abc"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:layout_width="@dimen/margin_120" android:layout_height="wrap_content" android:text="@string/sitename"/>
+            <TextView android:textColor="@color/black" android:id="@+id/oflsite" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="aaa"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:layout_width="@dimen/margin_120" android:layout_height="wrap_content" android:text="Date = "/>
+            <TextView android:textColor="@color/black" android:id="@+id/oflDate" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1233"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="@dimen/margin_120"
+                android:layout_height="wrap_content"
+                android:text="@string/batten"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="@dimen/margin_120"
+                android:layout_height="wrap_content"
+                android:text="@string/batten"
+                android:id="@+id/battentext"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="@dimen/margin_120"
+                android:layout_height="wrap_content"
+                android:text="@string/emr"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="@dimen/margin_120"
+                android:layout_height="wrap_content"
+                android:text="@string/batten"
+                android:id="@+id/emrtxt"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="@dimen/margin_120"
+                android:layout_height="wrap_content"
+                android:text="@string/batten"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="@dimen/margin_120"
+                android:layout_height="wrap_content"
+                android:text="@string/batten"
+                android:id="@+id/exitsign"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal"
+            android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:layout_width="@dimen/margin_120" android:layout_height="wrap_content" android:text="@string/twin"/>
+            <TextView android:textColor="@color/black" android:id="@+id/ofltwinasset" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1233"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:layout_width="@dimen/margin_120" android:layout_height="wrap_content" android:text="@string/Assetno"/>
+            <TextView android:textColor="@color/black" android:id="@+id/oflassetNumber" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1233"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:layout_width="@dimen/margin_120" android:layout_height="wrap_content" android:text="@string/el2cross14"/>
+            <TextView android:textColor="@color/black" android:id="@+id/ofledit2cross14" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1233"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:layout_width="@dimen/margin_120" android:layout_height="wrap_content" android:text="@string/el2cross18"/>
+            <TextView android:textColor="@color/black" android:id="@+id/ofledit2cross18" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1233"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:layout_width="@dimen/margin_120" android:layout_height="wrap_content" android:text="@string/el2cross28"/>
+            <TextView android:textColor="@color/black" android:id="@+id/ofledit2cross28" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1233"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:layout_width="@dimen/margin_120" android:layout_height="wrap_content" android:text="@string/el2cross36"/>
+            <TextView android:textColor="@color/black" android:id="@+id/ofledit2cross36" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1233"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:layout_width="@dimen/margin_120" android:layout_height="wrap_content" android:text="@string/exitquick"/>
+            <TextView android:textColor="@color/black" android:id="@+id/ofleditQuick" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1233"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:layout_width="@dimen/margin_120" android:layout_height="wrap_content" android:text="@string/exitbox"/>
+            <TextView android:textColor="@color/black" android:id="@+id/ofleditBox" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1233"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:layout_width="@dimen/margin_120" android:layout_height="wrap_content" android:text="@string/exitblad"/>
+            <TextView android:textColor="@color/black" android:id="@+id/ofleditBlad" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1233"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:layout_width="@dimen/margin_120" android:layout_height="wrap_content" android:text="@string/exitswing"/>
+            <TextView android:textColor="@color/black" android:id="@+id/ofleditSwing" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1233"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:layout_width="@dimen/margin_120" android:layout_height="wrap_content" android:text="@string/exitweather"/>
+            <TextView android:textColor="@color/black" android:id="@+id/ofleditWeather" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1233"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:layout_width="@dimen/margin_120" android:layout_height="wrap_content" android:text="@string/exitjumbo"/>
+            <TextView android:textColor="@color/black" android:id="@+id/ofleditJumbo" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1233"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:layout_width="@dimen/margin_120" android:layout_height="wrap_content" android:text="@string/location"/>
+            <TextView android:textColor="@color/black" android:id="@+id/ofleditLocation" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1233"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:layout_width="@dimen/margin_120" android:layout_height="wrap_content" android:text="@string/propertylevel"/>
+            <TextView android:textColor="@color/black" android:id="@+id/ofleditProperty" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1233"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:layout_width="@dimen/margin_120" android:layout_height="wrap_content" android:text="@string/comment"/>
+            <TextView android:textColor="@color/black" android:id="@+id/ofleditCmnt" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1233"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

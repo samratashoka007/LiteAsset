@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fab_margin_16dp" android:layout_marginTop="@dimen/fab_margin_16dp" android:layout_marginRight="@dimen/fab_margin_16dp" android:layout_centerInParent="true">
+        <Button android:textSize="@dimen/font_size_20sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@+id/online" android:background="@drawable/buttoneffect" android:layout_width="@dimen/margin_150" android:layout_height="@dimen/height_100" android:layout_marginTop="@dimen/height_10" android:text="@string/onlineData"/>
+        <Button android:textSize="@dimen/font_size_20sp" android:textColor="@color/white" android:id="@+id/offline" android:background="@drawable/buttoneffect" android:layout_width="@dimen/margin_150" android:layout_height="@dimen/height_100" android:layout_marginTop="@dimen/height_10" android:text="@string/offlineData"/>
+    </LinearLayout>
+</RelativeLayout>
