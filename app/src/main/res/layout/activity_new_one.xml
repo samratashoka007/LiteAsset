@@ -311,55 +311,57 @@
                     android:layout_weight="0.5"
                     android:inputType="text"/>
             </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/fab_margin_16dp"
+                android:layout_marginTop="@dimen/fab_margin_16dp"
+                android:layout_marginRight="@dimen/fab_margin_16dp"
+                android:layout_marginBottom="@dimen/fab_margin_16dp"
+                android:weightSum="3"
+                >
+                <Button
+                    android:textSize="@dimen/font_size_20sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/new1_saveBtn"
+                    android:background="@drawable/buttoneffect"
+                    android:layout_width="@dimen/width_100"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_marginTop="@dimen/height_10"
+                    android:layout_marginRight="@dimen/margin_5"
+                    android:text="@string/home_save"
+                    android:layout_weight="1"/>
+                <Button
+                    android:textSize="@dimen/font_size_20sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/new1_nextBtn"
+                    android:background="@drawable/buttoneffect"
+                    android:layout_width="@dimen/width_100"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_5"
+                    android:layout_marginTop="@dimen/height_10"
+                    android:layout_marginRight="@dimen/margin_5"
+                    android:text="@string/next"
+                    android:layout_weight="1"/>
+                <Button
+                    android:textSize="@dimen/font_size_20sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/new1_endBtn"
+                    android:background="@drawable/buttoneffectred"
+                    android:layout_width="@dimen/width_100"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_5"
+                    android:layout_marginTop="@dimen/height_10"
+                    android:text="@string/end"
+                    android:layout_weight="1"/>
+            </LinearLayout>
         </LinearLayout>
-    </ScrollView>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/fab_margin_16dp"
-        android:layout_marginTop="@dimen/fab_margin_16dp"
-        android:layout_marginRight="@dimen/fab_margin_16dp"
-        android:layout_marginBottom="@dimen/fab_margin_16dp"
-        android:weightSum="3"
-        >
-        <Button
-            android:textSize="@dimen/font_size_20sp"
-            android:textColor="@color/white"
-            android:id="@+id/new1_saveBtn"
-            android:background="@drawable/buttoneffect"
-            android:layout_width="@dimen/width_100"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin_10"
-            android:layout_marginTop="@dimen/height_10"
-            android:layout_marginRight="@dimen/margin_5"
-            android:text="@string/home_save"
-            android:layout_weight="1"/>
-        <Button
-            android:textSize="@dimen/font_size_20sp"
-            android:textColor="@color/white"
-            android:id="@+id/new1_nextBtn"
-            android:background="@drawable/buttoneffect"
-            android:layout_width="@dimen/width_100"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin_5"
-            android:layout_marginTop="@dimen/height_10"
-            android:layout_marginRight="@dimen/margin_5"
-            android:text="@string/next"
-            android:layout_weight="1"/>
-        <Button
-            android:textSize="@dimen/font_size_20sp"
-            android:textColor="@color/white"
-            android:id="@+id/new1_endBtn"
-            android:background="@drawable/buttoneffectred"
-            android:layout_width="@dimen/width_100"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin_5"
-            android:layout_marginTop="@dimen/height_10"
-            android:text="@string/end"
-            android:layout_weight="1"/>
-    </LinearLayout>
+
+
+    </ScrollView>
     <ListView
         android:visibility="gone"
         android:id="@+id/listViewNames"
